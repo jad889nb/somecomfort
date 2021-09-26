@@ -4,11 +4,11 @@ install_requires = list(val.strip() for val in open('requirements.txt'))
 tests_require = list(val.strip() for val in open('test_requirements.txt'))
 
 setup(name='somecomfort',
-      version='0.6.0',
+      version='0.6.1',
       description='A client for Honeywell\'s US-based cloud devices',
-      author='Dan Smith',
-      author_email='dsmith+somecomfort@danplanet.com',
-      url='http://github.org/kk7ds/somecomfort',
+      author='Jeremy Drost',
+      author_email='jeremy@benchmark-creative.com',
+      url='http://github.com/jad889nb/somecomfort',
       packages=['somecomfort'],
       entry_points={
           'console_scripts': [
