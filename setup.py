@@ -3,7 +3,7 @@ from setuptools import setup
 install_requires = list(val.strip() for val in open('requirements.txt'))
 tests_require = list(val.strip() for val in open('test_requirements.txt'))
 
-setup(name='somecomfort-jad889nb',
+setup(name='somecomfort',
       version='0.6.1',
       description='A client for Honeywell\'s US-based cloud devices',
       author='Jeremy Drost',
